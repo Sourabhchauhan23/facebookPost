@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PostStatus" verbose="1">
+
+	<listeners>
+		<listener class-name="base.TestListener" />
+	</listeners>
+
+	<test name="HelloWorld">
+		<parameter name="username" value="chauhan23"></parameter>
+		<parameter name="password" value="G0lu30tu"></parameter>
+		<classes>
+			<class name="com.facebook.poststatus.PostStatusTest" />
+		</classes>
+	</test>
+
+</suite>

@@ -22,7 +22,7 @@ public class HomePage extends BasePage {
 		Actions action = new Actions(driver);
 		action.sendKeys(status).build().perform();
 		log.info("Typing Status");
-		click(post);
+		//click(post);
 		log.info("Posting Status");
 			
 	}

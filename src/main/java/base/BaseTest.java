@@ -27,7 +27,7 @@ public class BaseTest {
 	public void setup(Method method, ITestContext ctx) {
 		
 		String testName = ctx.getCurrentXmlTest().getName();
-		log = LogManager.getLogger(testName);
+		this.log = LogManager.getLogger(testName);
 		
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
