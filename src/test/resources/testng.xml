@@ -7,8 +7,8 @@
 	</listeners>
 
 	<test name="HelloWorld">
-		<parameter name="username" value="chauhan23"></parameter>
-		<parameter name="password" value="G0lu30tu"></parameter>
+		<parameter name="username" value="username"></parameter>
+		<parameter name="password" value="password"></parameter>
 		<classes>
 			<class name="com.facebook.poststatus.PostStatusTest" />
 		</classes>
